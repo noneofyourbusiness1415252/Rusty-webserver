@@ -1,7 +1,7 @@
 name: CI
 env:
   DEBUG: napi:*
-  APP_NAME: dis-uniter
+  APP_NAME: rusty-webserver
   MACOSX_DEPLOYMENT_TARGET: '10.13'
 'on':
   push:

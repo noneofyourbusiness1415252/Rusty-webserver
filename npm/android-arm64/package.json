@@ -1,5 +1,5 @@
 {
-  "name": "dis-uniter-android-arm64",
+  "name": "rusty-webserver-android-arm64",
   "version": "0.0.0",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "dis-uniter.android-arm64.node",
+  "main": "rusty-webserver.android-arm64.node",
   "files": [
-    "dis-uniter.android-arm64.node"
+    "rusty-webserver.android-arm64.node"
   ],
   "license": "MIT",
   "engines": {

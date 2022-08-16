@@ -1,5 +1,5 @@
 {
-  "name": "dis-uniter-linux-x64-musl",
+  "name": "rusty-webserver-linux-x64-musl",
   "version": "0.0.0",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "dis-uniter.linux-x64-musl.node",
+  "main": "rusty-webserver.linux-x64-musl.node",
   "files": [
-    "dis-uniter.linux-x64-musl.node"
+    "rusty-webserver.linux-x64-musl.node"
   ],
   "license": "MIT",
   "engines": {

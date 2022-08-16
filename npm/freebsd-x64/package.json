@@ -1,5 +1,5 @@
 {
-  "name": "dis-uniter-freebsd-x64",
+  "name": "rusty-webserver-freebsd-x64",
   "version": "0.0.0",
   "os": [
     "freebsd"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "dis-uniter.freebsd-x64.node",
+  "main": "rusty-webserver.freebsd-x64.node",
   "files": [
-    "dis-uniter.freebsd-x64.node"
+    "rusty-webserver.freebsd-x64.node"
   ],
   "license": "MIT",
   "engines": {

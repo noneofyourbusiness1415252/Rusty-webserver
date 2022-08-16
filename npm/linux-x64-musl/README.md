@@ -1,3 +1,3 @@
-# `dis-uniter-linux-x64-musl`
+# `rusty-webserver-linux-x64-musl`
 
-This is the **x86_64-unknown-linux-musl** binary for `dis-uniter`
+This is the **x86_64-unknown-linux-musl** binary for `rusty-webserver`

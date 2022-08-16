@@ -1,3 +1,3 @@
-# `dis-uniter-freebsd-x64`
+# `rusty-webserver-freebsd-x64`
 
-This is the **x86_64-unknown-freebsd** binary for `dis-uniter`
+This is the **x86_64-unknown-freebsd** binary for `rusty-webserver`

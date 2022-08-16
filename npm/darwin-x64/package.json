@@ -1,5 +1,5 @@
 {
-  "name": "dis-uniter-darwin-x64",
+  "name": "rusty-webserver-darwin-x64",
   "version": "0.0.0",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "dis-uniter.darwin-x64.node",
+  "main": "rusty-webserver.darwin-x64.node",
   "files": [
-    "dis-uniter.darwin-x64.node"
+    "rusty-webserver.darwin-x64.node"
   ],
   "license": "MIT",
   "engines": {

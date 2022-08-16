@@ -1,3 +1,3 @@
-# `dis-uniter-darwin-arm64`
+# `rusty-webserver-darwin-arm64`
 
-This is the **aarch64-apple-darwin** binary for `dis-uniter`
+This is the **aarch64-apple-darwin** binary for `rusty-webserver`

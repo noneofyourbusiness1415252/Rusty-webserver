@@ -1,3 +1,3 @@
-# `dis-uniter-android-arm64`
+# `rusty-webserver-android-arm64`
 
-This is the **aarch64-linux-android** binary for `dis-uniter`
+This is the **aarch64-linux-android** binary for `rusty-webserver`

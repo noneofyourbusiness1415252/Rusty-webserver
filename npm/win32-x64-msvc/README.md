@@ -1,3 +1,3 @@
-# `dis-uniter-win32-x64-msvc`
+# `rusty-webserver-win32-x64-msvc`
 
-This is the **x86_64-pc-windows-msvc** binary for `dis-uniter`
+This is the **x86_64-pc-windows-msvc** binary for `rusty-webserver`

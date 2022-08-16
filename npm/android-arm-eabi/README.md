@@ -1,3 +1,3 @@
-# `dis-uniter-android-arm-eabi`
+# `rusty-webserver-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `dis-uniter`
+This is the **armv7-linux-androideabi** binary for `rusty-webserver`

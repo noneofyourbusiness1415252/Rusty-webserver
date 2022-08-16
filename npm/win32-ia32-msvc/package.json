@@ -1,5 +1,5 @@
 {
-  "name": "dis-uniter-win32-ia32-msvc",
+  "name": "rusty-webserver-win32-ia32-msvc",
   "version": "0.0.0",
   "os": [
     "win32"
@@ -7,9 +7,9 @@
   "cpu": [
     "ia32"
   ],
-  "main": "dis-uniter.win32-ia32-msvc.node",
+  "main": "rusty-webserver.win32-ia32-msvc.node",
   "files": [
-    "dis-uniter.win32-ia32-msvc.node"
+    "rusty-webserver.win32-ia32-msvc.node"
   ],
   "license": "MIT",
   "engines": {

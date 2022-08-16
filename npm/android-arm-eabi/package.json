@@ -1,5 +1,5 @@
 {
-  "name": "dis-uniter-android-arm-eabi",
+  "name": "rusty-webserver-android-arm-eabi",
   "version": "0.0.0",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": "dis-uniter.android-arm-eabi.node",
+  "main": "rusty-webserver.android-arm-eabi.node",
   "files": [
-    "dis-uniter.android-arm-eabi.node"
+    "rusty-webserver.android-arm-eabi.node"
   ],
   "license": "MIT",
   "engines": {
