@@ -36,20 +36,5 @@
     "test": "ava",
     "version": "napi version"
   },
-  "packageManager": "yarn@3.2.2",
-  "optionalDependencies": {
-    "rusty-webserver-win32-x64-msvc": "0.0.0",
-    "rusty-webserver-darwin-x64": "0.0.0",
-    "rusty-webserver-linux-x64-gnu": "0.0.0",
-    "rusty-webserver-darwin-arm64": "0.0.0",
-    "rusty-webserver-android-arm64": "0.0.0",
-    "rusty-webserver-linux-arm64-gnu": "0.0.0",
-    "rusty-webserver-linux-arm64-musl": "0.0.0",
-    "rusty-webserver-win32-arm64-msvc": "0.0.0",
-    "rusty-webserver-linux-arm-gnueabihf": "0.0.0",
-    "rusty-webserver-linux-x64-musl": "0.0.0",
-    "rusty-webserver-freebsd-x64": "0.0.0",
-    "rusty-webserver-win32-ia32-msvc": "0.0.0",
-    "rusty-webserver-android-arm-eabi": "0.0.0"
-  }
+  "packageManager": "yarn@3.2.2"
 }
