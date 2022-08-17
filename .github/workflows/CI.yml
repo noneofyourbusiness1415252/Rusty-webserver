@@ -197,7 +197,7 @@ jobs:
             npm install -g yarn
             curl https://sh.rustup.rs -sSf --output rustup.sh
             sh rustup.sh -y --profile minimal --default-toolchain stable
-            export PATH="/usr/local/cargo/bin:$PATH"
+            source "/usr/local/cargo/env"
             echo "~~~~ rustc --version ~~~~"
             rustc --version
             echo "~~~~ node -v ~~~~"
@@ -205,7 +205,6 @@ jobs:
             echo "~~~~ yarn --version ~~~~"
             yarn --version
           run: |
-            export PATH="/usr/local/cargo/bin:$PATH"
             pwd
             ls -lah
             whoami

@@ -9,7 +9,7 @@ fn _serve(env: Env, paths: collections::HashMap<String, JsFunction>) -> Result<(
   let mut statics = HashMap::new();
   env::set_current_dir("static")?;
   add_all_files(".", &mut statics)?;
-  for stream in std::net::TcpListener::bind("0.0.0.0:80")?.incoming() {
+  for stream in std::net::TcpListener::bind("0.0.0.0:0")?.incoming() {
     let mut path = vec![];
     let mut stream = stream?;
     let mut reader = BufReader::new(stream.try_clone()?);
