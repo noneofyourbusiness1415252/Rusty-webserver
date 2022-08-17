@@ -194,10 +194,12 @@ jobs:
           prepare: |
             pkg install -y curl node14 python2
             curl -qL https://www.npmjs.com/install.sh | sh
+            mkdir ~/.local/bin || echo no need for line 197
+            :>~/.local/bin/--
             npm install -g yarn
             curl https://sh.rustup.rs -sSf --output rustup.sh
             sh rustup.sh -y --profile minimal --default-toolchain stable
-            source ~/.bashrc
+            source ~/.cargo/bin
             echo "~~~~ rustc --version ~~~~"
             rustc --version
             echo "~~~~ node -v ~~~~"
