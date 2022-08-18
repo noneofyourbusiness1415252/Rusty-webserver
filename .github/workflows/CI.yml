@@ -207,6 +207,7 @@ jobs:
             echo "~~~~ yarn --version ~~~~"
             yarn --version
           run: |
+            setenv PATH /usr/local/cargo/bin:$PATH
             pwd
             ls -lah
             whoami
