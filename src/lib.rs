@@ -5,7 +5,7 @@ use napi::{Result, *};
 use regex::*;
 use std::{collections::*, io::*, *};
 #[napi(ts_args_type = "paths: Record<string, (...args: any[]) => string>")]
-fn _serve(env: Env, paths: collections::HashMap<String, JsFunction>) -> Result<()> {
+pub fn serve(env: Env, paths: HashMap<String, JsFunction>) -> Result<()> {
   let mut statics = HashMap::new();
   env::set_current_dir("static")?;
   add_all_files(".", &mut statics)?;
@@ -76,7 +76,7 @@ fn add_all_files(
       let file_path = format!("{}/{}", path, file.file_name().into_string().unwrap());
       paths.insert(
         if file_path.clone().ends_with("index.html") {
-          if path == "." { "" } else { &path[2..] }.to_owned()
+          path.get(2..).unwrap_or("").to_owned()
         } else {
           let (name, ext) = file_path
             .clone()
